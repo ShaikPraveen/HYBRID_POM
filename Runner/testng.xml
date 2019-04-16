@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GURU APPLICATION TEST SUITE">
+<listeners>
+   <listener class-name="com.qa.guru.utilities.Reporting"></listener>
+</listeners>
+  <test  name="VerifY Guru Application Login Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+     <class name="com.qa.guru.testCases.TC01_LoginTest"/>
+     <!--  <class name="com.qa.guru.testCases.TC02_LoginDDTTest"/>-->
+     <!-- <class name="com.qa.guru.testCases.TC03_CreateNewCustomer"/> -->
+    </classes>
+  </test> 
+  
+  <!-- <test  name="VerifY Guru Application Login Test in Firefox">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.qa.guru.testCases.TC01_LoginTest"/>
+    </classes>
+  </test> -->
+</suite> 
+
+

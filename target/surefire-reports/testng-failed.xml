@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [GURU APPLICATION TEST SUITE]">
+  <listeners>
+    <listener class-name="com.qa.guru.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="VerifY Guru Application Login Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.guru.testCases.TC02_LoginDDTTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="guruApplicationDDTTest" invocation-numbers="1 3 5"/>
+        </methods>
+      </class> <!-- com.qa.guru.testCases.TC02_LoginDDTTest -->
+    </classes>
+  </test> <!-- VerifY Guru Application Login Test(failed) -->
+</suite> <!-- Failed suite [GURU APPLICATION TEST SUITE] -->

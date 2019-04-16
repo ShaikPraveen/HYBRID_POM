@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GURU APPLICATION TEST SUITE" duration-ms="140072" started-at="2019-03-05T09:25:31Z" finished-at="2019-03-05T09:27:51Z">
+    <groups>
+    </groups>
+    <test name="VerifY Guru Application Login Test" duration-ms="140072" started-at="2019-03-05T09:25:31Z" finished-at="2019-03-05T09:27:51Z">
+      <class name="com.qa.guru.testCases.TC03_CreateNewCustomer">
+        <test-method status="PASS" signature="setUP(java.lang.String)[pri:0, instance:com.qa.guru.testCases.TC03_CreateNewCustomer@731a74c]" name="setUP" is-config="true" duration-ms="44013" started-at="2019-03-05T09:26:34Z" finished-at="2019-03-05T09:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="createNewCustomerTest()[pri:0, instance:com.qa.guru.testCases.TC03_CreateNewCustomer@731a74c]" name="createNewCustomerTest" duration-ms="32666" started-at="2019-03-05T09:27:18Z" finished-at="2019-03-05T09:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.guru.testCases.TC03_CreateNewCustomer@731a74c]" name="tearDown" is-config="true" duration-ms="186" started-at="2019-03-05T09:27:51Z" finished-at="2019-03-05T09:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.guru.testCases.TC03_CreateNewCustomer -->
+      <class name="com.qa.guru.testCases.TC01_LoginTest">
+        <test-method status="PASS" signature="setUP(java.lang.String)[pri:0, instance:com.qa.guru.testCases.TC01_LoginTest@4b4523f8]" name="setUP" is-config="true" duration-ms="45529" started-at="2019-03-05T09:25:31Z" finished-at="2019-03-05T09:26:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="guruApplicationLoginTest()[pri:0, instance:com.qa.guru.testCases.TC01_LoginTest@4b4523f8]" name="guruApplicationLoginTest" duration-ms="16970" started-at="2019-03-05T09:26:17Z" finished-at="2019-03-05T09:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guruApplicationLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.guru.testCases.TC01_LoginTest@4b4523f8]" name="tearDown" is-config="true" duration-ms="280" started-at="2019-03-05T09:26:34Z" finished-at="2019-03-05T09:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.guru.testCases.TC01_LoginTest -->
+    </test> <!-- VerifY Guru Application Login Test -->
+  </suite> <!-- GURU APPLICATION TEST SUITE -->
+</testng-results>
