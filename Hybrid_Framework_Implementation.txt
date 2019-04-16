@@ -1,0 +1,129 @@
+STEPS TO DEVELOPE FRAMEWORK
+----------------------------
+1. Create Maven Project
+2. Update pom.xml
+3. Craete Page Objects
+4. Create Basic Test Case
+5. Add Logs to Test Case
+6. Read common values from properties file
+7. Run Test case on desired browser
+8. Add extent Report
+9. Create Data Driven Test case
+10. Adding new Test case
+================================
+
+1. Run Test Cases Using Pom.xml File (Within Eclipse)
+-----------------------------------------------------
+   A. If you want to execute test cases using pom.xml file, We have to Approaches like using dependencies and using Plugins
+   B. Plugins are Two types like "Compiler" and "Surefire" plugins
+   C. In pom.xml file you need to add two plugins like Compiler and Surefire plugins
+   D. Next Update Your testng.xml file in Surefire Plugin
+   E. Next Run pom.xml file, Just Right click on pom.xml file Run as => First Check "Maven Clean" and Check "Maven Test"
+     
+        Note:- While Running this you will get one Error like => No Compiler is provided in this environment. Perhaps you running on a Jre rather than Jdk?
+               Once you will get this Error, You have to update your jdk 
+       
+        Follow this link will show you exact solution => http://roufid.com/no-compiler-is-provided-in-this-environment/
+        
+   F. So, Finally The BUILD SUCCESS
+
+2. Run Test cases through Maven CLI(Command Line Interface) With out Eclipse
+----------------------------------------------------------------------------
+   
+     A. If you want to run test cases through CMD Prompt, you should install Maven in your Local Machine
+     B. Go to Your Project Location in CMD Prompt
+   
+            => cd E:\Praveen_Automation\TCS_SELENIUM\HybridFramework  
+   
+            => cd dir (Press enter will shows all project files in cmd prompt like testng.xml, pom.xml------)
+
+     C. Next Run Maven Commands like, Type the Following Commands
+
+         => mvn clean install (Click Enter)
+
+          It will start the Execution like Shows us "T E S T S" and Finally Shows "BUILD SUCCESS"
+
+3. Run Test cases through run.bat
+--------------------------------
+   
+   A. If you want to Run Test cases through bat file, you need to Create one Bat file in your project
+   B. Next Edit your Bat file and send to your project location and mvn command. Follow below 
+
+       cd E:\Praveen_Automation\TCS_SELENIUM\HybridFramework
+       mvn clean install
+
+   C. Once type the above commands and save and close
+   D. Run the Bat file(double click), it will start the execution in CMD Prompt 
+   E. So, Finally BUILD SUCCESS
+
+4. Run Test cases through Jenkins
+----------------------------------
+
+   A. If you want to run Test cases through Jenkins, you must have to download jenkins war file from google
+        
+        https://jenkins.io/download/
+   B. After downloading jekins war file, go to your exact jenkins war file and open CMD Prompt and run following command
+
+   C. java -jar jenkins.war (Press Enter), Finally will shows us Jekins is Fully up and running
+  
+   D. Then go to browser enter the url like "localhost:8080", it will ask for username and password. Next Login it will shows us Jenkins dashboard
+    
+   E. We will Run our  Project in Two ways like
+
+          =>  Execute Project using Free style project(using run.bat file)
+          =>  Execute Project using Maven(Using pom.xml)
+           
+       Execute Project using Free style project(using run.bat file)
+     
+            a. First yiu have to create one new item using Freestyle 
+            b. Then after write some description, then after in Build Drop down select "Execute windows batch command", it will open Box, 
+               then after send your project location along with bat file, then follow below 
+
+               cd E:\Praveen_Automation\TCS_SELENIUM\HybridFramework
+               run.bat
+
+              Then finally Apply and save. It will Open Dahboard
+
+
+
+
+
+
+        
+
+
+      
+    
+
+    
+
+     
+
+       
+
+    
+
+
+
+
+
+
+
+Access Modifiers Used:
+=====================
+
+Public 
+-----
+ I want to access outside of the package 
+
+Static 
+--------
+
+
+Java Cocepts
+============
+Contrustors used
+Exception Handling used (try and catch block)
+
+==========================
+
